@@ -20,7 +20,7 @@ state.addEventListener("click", (e) => {
         icon: "success",
         title: `thank you very much for this rating ${selectButton}`,
         showConfirmButton: false,
-        timer: 2000,
+        timer: 2500,
       });
     } else {
       Swal.fire({
